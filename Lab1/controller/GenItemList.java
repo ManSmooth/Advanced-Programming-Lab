@@ -15,7 +15,7 @@ public class GenItemList {
     private static ArrayList<GenericEquipment> items = new ArrayList<>();
     static {
         try {
-            String text = new String(Files.readAllBytes(Paths.get("assets/data/item_data.json")),
+            String text = new String(Files.readAllBytes(Paths.get("Lab1/assets/data/item_data.json")),
                     StandardCharsets.UTF_8).replaceAll("[\\n\\t]", "");
             JSONArray jsonarray = new JSONArray(text);
             for (int i = 0; i < jsonarray.length(); i++) {

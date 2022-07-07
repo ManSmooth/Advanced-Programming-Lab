@@ -15,12 +15,12 @@ public class GenCharacter {
     private static JSONArray names;
     static {
         try {
-            String text = new String(Files.readAllBytes(Paths.get("assets/data/class_data.json")), StandardCharsets.UTF_8).replaceAll("[\\n\\t]", "");
+            String text = new String(Files.readAllBytes(Paths.get("Lab1/assets/data/class_data.json")), StandardCharsets.UTF_8).replaceAll("[\\n\\t]", "");
             JSONArray jsonarray = new JSONArray(text);
             for (int i = 0; i < jsonarray.length(); i++) {
                 classes.add(jsonarray.getJSONObject(i));
             }
-            text = new String(Files.readAllBytes(Paths.get("assets/data/names.json")), StandardCharsets.UTF_8).replaceAll("[\\n\\t]", "");
+            text = new String(Files.readAllBytes(Paths.get("Lab1/assets/data/names.json")), StandardCharsets.UTF_8).replaceAll("[\\n\\t]", "");
             names = new JSONArray(text);
         } catch (IOException e) {
             e.printStackTrace();
