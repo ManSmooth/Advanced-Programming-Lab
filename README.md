@@ -1,12 +1,8 @@
 # Advanced Programming Lab
-## Lab1
-Supposedly an RPG game?
-- All Case Studies
-- Exercise done
-- Codebase redone
-    ## Library used
+## Lab 1, a supposedly RPG game?
+-   ## Library used
     - org.json
-    ## Notable Features
+-   ## Notable Features
     - You can drag the item back into the inventory.
     - Generic Characters and Items.
     - Data is stored in JSON files.
