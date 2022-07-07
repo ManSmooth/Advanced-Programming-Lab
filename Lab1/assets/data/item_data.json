@@ -1,0 +1,72 @@
+[
+    {
+        "id": 0,
+        "name": "None",
+        "type": 0,
+        "imgpath": "/assets/unknown.png",
+        "dtype": 0,
+        "bPow": 0,
+        "bDef": 0,
+        "bRes": 0
+    },
+    {
+        "id": 1,
+        "name": "Sword1",
+        "type": 1,
+        "imgpath": "/assets/weapon/sword1.png",
+        "dtype": 1,
+        "bPow": 10,
+        "bDef": 0,
+        "bRes": 0
+    },
+    {
+        "id": 2,
+        "name": "Gun1",
+        "type": 1,
+        "imgpath": "/assets/weapon/gun1.png",
+        "dtype": 1,
+        "bPow": 20,
+        "bDef": 0,
+        "bRes": 0
+    },
+    {
+        "id": 3,
+        "name": "Staff1",
+        "type": 1,
+        "imgpath": "/assets/weapon/staff1.png",
+        "dtype": 2,
+        "bPow": 30,
+        "bDef": 0,
+        "bRes": 0
+    },
+    {
+        "id": 4,
+        "name": "Armor1",
+        "type": 2,
+        "imgpath": "/assets/armor/armor1.png",
+        "dtype": 1,
+        "bPow": 0,
+        "bDef": 50,
+        "bRes": 0
+    },
+    {
+        "id": 5,
+        "name": "Shirt1",
+        "type": 2,
+        "imgpath": "/assets/armor/shirt1.png",
+        "dtype": 2,
+        "bPow": 0,
+        "bDef": 0,
+        "bRes": 50
+    },
+    {
+        "id": 6,
+        "name": "Impervious Croptop",
+        "type": 2,
+        "imgpath": "/assets/armor/croptop1.png",
+        "dtype": 3,
+        "bPow": 999,
+        "bDef": 999,
+        "bRes": 999
+    }
+]

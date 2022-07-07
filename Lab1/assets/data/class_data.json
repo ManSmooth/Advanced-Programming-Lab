@@ -1,0 +1,65 @@
+[
+    {
+        "id": 0,
+        "name": "None",
+        "imgpath": "/assets/unknown.png",
+        "dtype": 0,
+        "MHP": 0,
+        "bPow": 0,
+        "bDef": 0,
+        "bRes": 0,
+        "allow_weapon": [],
+        "allow_armor": []
+    },
+    {
+        "id": 1,
+        "name": "Knight",
+        "imgpath": "/assets/classes_portrait/knight.png",
+        "dtype": 1,
+        "MHP": 50,
+        "bPow": 30,
+        "bDef": 25,
+        "bRes": 0,
+        "allow_weapon": [
+            1
+        ],
+        "allow_armor": [
+            1,
+            3
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Wizard",
+        "imgpath": "/assets/classes_portrait/wizard.png",
+        "dtype": 2,
+        "MHP": 30,
+        "bPow": 50,
+        "bDef": 0,
+        "bRes": 25,
+        "allow_weapon": [
+            2
+        ],
+        "allow_armor": [
+            2,
+            3
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Battlemage",
+        "imgpath": "/assets/classes_portrait/battlemage.png",
+        "dtype": 3,
+        "MHP": 40,
+        "bPow": 40,
+        "bDef": 12,
+        "bRes": 12,
+        "allow_weapon": [
+            1,
+            2
+        ],
+        "allow_armor": [
+            3
+        ]
+    }
+]
