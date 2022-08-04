@@ -9,3 +9,11 @@
     - Has Image Handler for image handling.
     - Has Logger for, you guessed it, logging.
     - Names?
+## Lab 2, Currency watch thing?
+-   ## Library used
+    - org.json
+    - org.apache.commons.io
+-   ## Notable Features
+    - Optimized API calls???
+    - Executor pool???
+    - and a lot of optimizations
